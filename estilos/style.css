@@ -39,15 +39,12 @@ header{
 menu > ul > li{
     display: inline-block;
     width: 90px;
-    margin: auto;
     margin-top: 270px;
     margin-right: 80px;
     margin-left: -50px;
-    padding: 5px;
     background-color: #f2e30f;
 }
 
-menu,#nav{
-    text-align: center;
-    text-decoration: none;
-}
+
+
+
