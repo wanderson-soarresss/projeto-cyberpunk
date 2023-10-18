@@ -11,7 +11,7 @@ bege escuro:#BF847E
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width:360px) and (max-width:640px){
@@ -21,6 +21,7 @@ bege escuro:#BF847E
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center,center;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.684);
       }
 
       h1{
@@ -59,6 +60,20 @@ bege escuro:#BF847E
         background-color:#F2D2B6;
         color: #365073;
         transition-duration: .8s;
+      }
+
+      main{
+        width: 90vw;
+        background-color:#bf857ea7;
+        margin: auto;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+
+      }
+
+      article > h2{
+
       }
     
 }
