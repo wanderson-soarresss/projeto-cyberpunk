@@ -16,7 +16,8 @@ bege escuro:#BF847E
 @media screen and (min-width:360px) and (max-width:640px){
       menu#imagem{
         background-image: url(../imagens/cyber-punk-mobile.jpg);
-        height: 300px;
+        height: 200px;
+        width: 450px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center,center;
@@ -37,9 +38,9 @@ bege escuro:#BF847E
 
       .nav{
         display: inline-block;
-        margin-top: 270px;
-        padding-right: 50px;
-        margin-left: 10px ;
+        margin-top: 160px;
+        padding-right: 40px;
+        margin-left: 4px ;
         border-radius: 5px;
         
 
