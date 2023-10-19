@@ -11,14 +11,6 @@ bege escuro:#BF847E
 *{
     margin: 0px;
     padding: 0px;
-    @font-face {
-        font-family: cyber;
-        src: url("../fontes/cyberpunk.otf.otf/")format('opentype');
-        font-weight:normal
-    }
-    .fonte{
-        font-family: cyber, Helvetica, sans-serif;
-    }
 }
 
 @media screen and (min-width:360px) and (max-width:640px){
@@ -31,7 +23,8 @@ bege escuro:#BF847E
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.684);
       }
 
-      h1#fonte{
+      h1{
+        font-family:'cyber, arial , sans-serif';
         background-color: #f2e30f ;
         color: #365073;
         text-align: center;
