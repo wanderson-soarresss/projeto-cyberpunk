@@ -25,11 +25,17 @@ bege escuro:#BF847E
       }
 
       h1{
-        font-family:'cyber, arial , sans-serif';
-        background-color: #f2e30f ;
-        color: #365073;
-        text-align: center;
-        padding: 10px;
+
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../imagens/titulo-png.png);
+        background-color: black;
+        height: 150px;
+        width: 100%;
+
+        background-repeat: no-repeat;
+        background-position: center,center;
+      
+      
       }
 
       menu > ul{
