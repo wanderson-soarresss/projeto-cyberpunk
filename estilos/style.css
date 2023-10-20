@@ -13,11 +13,16 @@ bege escuro:#BF847E
     padding: 0px;
 }
 
+body{
+  background-image: linear-gradient(to right, #F2D2B6, #BF847E );
+}
+
 @media screen and (min-width:360px) and (max-width:667px){
       menu#imagem{
         background-image: url(../imagens/cyber-punk-mobile.jpg);
         height: 200px;
         width: 100%;
+        margin-top: 1px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center,center;
@@ -78,6 +83,24 @@ bege escuro:#BF847E
         border-radius: 5px;
 
       }
+        
+     div.video{
+        
+        margin-bottom: 30px;
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 50%;
+        position: relative;
+
+     }
+
+     div.video > iframe{
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 90%;
+      height: 90%;
+     }
 
       article > h2{
 
