@@ -13,11 +13,11 @@ bege escuro:#BF847E
     padding: 0px;
 }
 
-@media screen and (min-width:360px) and (max-width:720px){
+@media screen and (min-width:360px) and (max-width:667px){
       menu#imagem{
         background-image: url(../imagens/cyber-punk-mobile.jpg);
         height: 200px;
-        width: 450px;
+        width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center,center;
