@@ -5,7 +5,14 @@
     padding: 0px;
 }
 
-@media screen and (min-width: 667px) and (max-width: 1024px){
+
+@media screen and (min-width: 667px) and (max-width: 812px){
+
+    body{
+        background-image: linear-gradient(to top,#0A0140, #365073);
+    }
+    
+
     menu#imagem{
       background-image: url(../imagens/cyberpunk-tablet.jpg);
       height: 200px;
@@ -17,13 +24,17 @@
       background-position: top,center;
     }
 
-    h1{
+    #titulo{
         background-image: url(../imagens/titulo-png.png);
+        background-color: black;
         height: 150px;
         width: 100%;
-
-        background-repeat: no-repeat;
+           
         background-position: center;
+        background-repeat: no-repeat
+    
+
+
     }
 
     .nav{
@@ -47,6 +58,16 @@
         transition-duration: .3s;
     }
 
+    ul > li > a:hover{
+        background-color:#365073;
+        color: #f2e30f;
+        transition-duration: .8s;
+      }
+
+      main{
+        width: 90vw;
+        background-color: #bf857ea7;
+      }
 
        
 }

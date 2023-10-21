@@ -31,7 +31,7 @@ body{
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.684);
       }
 
-      h1{
+      #titulo{
 
         font-family: Arial, Helvetica, sans-serif;
         background-image: url(../imagens/titulo-png.png);
