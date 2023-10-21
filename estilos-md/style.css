@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 667px) and (max-width: 1024px){
+    menu#imagem{
+      background-image: url(../imagens/cyberpunk-tablet.jpg);
+      height: 200px;
+      width: 100%;
+      margin-top: 1px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top,center;
+    }
+
+    h1{
+        background-image: url(../imagens/titulo-png.png);
+        height: 150px;
+        width: 100%;
+
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+       
+}

@@ -14,7 +14,7 @@ bege escuro:#BF847E
 }
 
 body{
-  background-image: linear-gradient(to right, #F2D2B6, #BF847E );
+   background-color: black;
 }
 
 @media screen and (min-width:360px) and (max-width:667px){
@@ -41,6 +41,10 @@ body{
         background-position: center,center;
       
       
+      }
+
+      h2, p{
+        font-family: Arial, Helvetica, sans-serif;
       }
 
       menu > ul{
