@@ -26,10 +26,10 @@
     }
 
     #titulo{
-        background-image: url(../imagens/titulo-png.png);
-        background-color: black;
+        background-image: url(../imagens/tablet-titulo.png);
         height: 150px;
         width: 100%;
+        margin-bottom: 5px;
 
            
         background-position: center;
