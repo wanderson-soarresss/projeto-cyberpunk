@@ -13,9 +13,9 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     
-
     menu#imagem{
       background-image: url(../imagens/cyberpunk-tablet.jpg);
+    
       height: 300px;
       width: 100%;
       margin-top: 1px;
@@ -26,10 +26,13 @@
     }
 
     #titulo{
+        background-color: black;
         background-image: url(../imagens/tablet-titulo.png);
+        
         height: 150px;
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
+        transition: 3s;
 
            
         background-position: center;
