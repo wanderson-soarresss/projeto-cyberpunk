@@ -37,7 +37,9 @@ body{
         background-image: url(../imagens/titulo-png.png);
         background-color: black;
         height: 150px;
+        padding-left: 10px;
         width: 100%;
+        
 
         background-repeat: no-repeat;
         background-position: center,center;
