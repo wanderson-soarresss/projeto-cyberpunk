@@ -97,3 +97,38 @@
 
        
 }
+
+@media  screen and (min-width:1024px) and (max-width:1920px){
+      
+  .nav{
+   
+    width: 150px;
+    height: 35px;
+    margin-top: 0px;
+    padding-right: 40px ;
+    margin-left: 5px;
+    border-radius: 5px;
+
+}
+
+ul > li > a {
+  display: block;
+  background-color: #f2e30f ;
+  color: black;
+  margin-bottom: 5px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 2px 50px 0px;
+  text-decoration: none;
+  transition-duration: .3s;
+
+}
+
+menu{
+  background-image: url(../imagens/desktop-1920x1080.png);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left,center;
+}
