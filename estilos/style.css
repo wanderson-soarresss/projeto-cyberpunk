@@ -66,14 +66,7 @@ body{
       }
       
       ul > li > a{
-        display: block;
-        background-color: #365073;
-        color: white;
-        height: 25px;
-        border-radius: 5px;
-        padding: 2px 10px 0px;
-        text-decoration: none;
-        transition-duration: .3s;
+
       }
 
       ul > li > a:hover{
