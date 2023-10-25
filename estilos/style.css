@@ -56,17 +56,14 @@ body{
       }
 
       .nav{
+        display: inline-block;
         background-color: #365073;
-        margin-top: 50px;
-        padding-right: 40px;
-        margin-left: 4px ;
-        border-radius: 5px;
-        
+        width: 100px;
 
       }
       
       nenu > ul > li > {
-        width
+    
 
       }
 
