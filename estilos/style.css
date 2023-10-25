@@ -62,10 +62,10 @@ body{
 
       }
       
-      nenu > ul > li > {
-    
-
+      menu > ul > li {
+        display: inline-block;
       }
+      
 
       ul > li > a:hover{
         background-color:#F2D2B6;
