@@ -56,8 +56,8 @@ body{
       }
 
       .nav{
-        display: inline-block;
-        margin-top: 160px;
+        background-color: #365073;
+        margin-top: 50px;
         padding-right: 40px;
         margin-left: 4px ;
         border-radius: 5px;
@@ -65,7 +65,8 @@ body{
 
       }
       
-      ul > li > a{
+      nenu > ul > li > {
+        width
 
       }
 
