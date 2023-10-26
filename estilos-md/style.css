@@ -106,16 +106,15 @@
   }
       
   .nav{
-      display: inline-block;
+      display: block;
       background-color:  #0A0140 ;
       color: white;
-      margin-right: 5px;
-      padding: 5px 5px;
+      
       border: 5px 5px;
       
       font-size: 1.2em;
      
-      margin-top: 5px;
+      margin-top: 1px;
       height: 30px;
       width: 200px;
       text-align: center;
@@ -129,6 +128,7 @@
   background-color: #365073 ;
   color: #f2e30f;
   transform: translate(4s);
+  width: 220px ;
 }
 
 menu > ul > li {
