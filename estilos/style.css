@@ -15,6 +15,7 @@ bege escuro:#BF847E
 
 body{
    background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width:375px) and (max-width:667px){
@@ -57,20 +58,29 @@ body{
 
       .nav{
         display: inline-block;
-        background-color: #365073;
-        width: 100px;
-        margin-top: 180px;
+        background-color:#365073b0 ;
+        color: white;
+        width: 80px;
+        height: 27px;
+        margin-top: 160px;
+        text-decoration: none;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+        padding-left: 5px;
 
       }
       
       menu > ul > li {
         display: inline-block;
+        text-align: center;
       }
       
 
       ul > li > a:hover{
-        background-color:#F2D2B6;
-        color: #365073;
+        background-color:#0A0140;
+        color: #f2e30f;
         transition-duration: .8s;
       }
 
