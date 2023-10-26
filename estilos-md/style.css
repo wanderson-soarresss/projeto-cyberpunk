@@ -74,14 +74,18 @@
         width: 150px;
         transition-duration: .6s;
       }
-
+    
       main{
-        width: 90vw;
-        background-color: #bf857ea7;
-        margin: auto;
-        margin: 10px;
+        width: 70vw;
+        background-color: white;
         padding: 10px;
         border-radius: 5px;
+        margin-top: -1px;
+        margin: auto;
+      }
+
+      h2 > P {
+        padding: 10px;
       }
 
       div.video{
@@ -111,9 +115,9 @@
   }
 
   body{
+    background-image: linear-gradient(to top,#0A0140, #365073);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-  }
+} 
 
   #titulo{
     background-color: black;
@@ -183,8 +187,8 @@
 
 
 main{
-  width: 50vw;
-  background-color: #858282a7;
+  width: 60vw;
+  background-color: white;
   padding: 10px;
   border-radius: 5px;
   margin-top: -1px;
