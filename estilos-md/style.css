@@ -110,6 +110,14 @@
         height: 90%;
        }
 
+       aside > ul > li > a{
+        background-color: #365073;
+        width: 150px;
+        height: 150px;
+        border-radius: 55%;
+
+       }
+
        
 }
 
