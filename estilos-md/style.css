@@ -65,14 +65,14 @@
         border-radius: 5px;
         padding: 2px 10px 0px;
         text-decoration: none;
-        transition-duration: .3s;
+        transition-duration: .4s;
     }
 
-    ul > li > a:hover{
+    ul > li > .nav:hover{
         background-color:#365073;
         color: #f2e30f;
         width: 150px;
-        transition-duration: .3s;
+        transition-duration: .6s;
       }
 
       main{
@@ -115,6 +115,23 @@
     background-color: white;
   }
 
+  #titulo{
+    background-color: black;
+    background-image: url(../imagens/tablet-titulo.png);
+    
+    height: 150px;
+    width: 100%;
+    margin-bottom: 2px;
+    transition: .5s;
+
+       
+    background-position: center;
+    background-repeat: no-repeat
+
+
+
+}
+
   menu#imagem{
     background-image: url(../imagens/desktop-1920x1080.png);
     height: 500px;
@@ -129,14 +146,15 @@
       
   .nav{
     display: inline-block;
-    background-color: #0A0140;
+    background-color: #0a0140a8;
+    color: white;
     text-align: center;
 
     width: 100px;
     height: 30px;
     margin: auto;
     padding: 5px 5px 2px 4px;
-    margin-left: 4px;
+    margin-left:10px;
     border-radius: 5px;
     margin-top: 450px;
     text-decoration: none;
@@ -145,6 +163,7 @@
 
  ul > li > a{
   text-align: center;
+  transition-duration: .4s;
  }
 
  menu > ul > li {
@@ -155,7 +174,7 @@
 
 
 .nav:hover{
-  background-color: #365073 ;
+  background-color: #5581bb ;
   color: #f2e30f;
   transform: translate(.10s);
   width: 130px ;
