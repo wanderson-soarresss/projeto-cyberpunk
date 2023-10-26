@@ -52,6 +52,9 @@
 
     }
 
+
+    
+
     ul > li > a {
         display: block;
         background-color: #f2e30f ;
@@ -102,32 +105,54 @@
 
 @media  screen and (min-width:1024px) and (max-width:1680px){
 
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
   body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
   }
+
+  menu#imagem{
+    background-image: url(../imagens/desktop-1920x1080.png);
+    height: 500px;
+    width: 100%;
+    margin-bottom: 5px ;
+    background-position: center,right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
       
   .nav{
+    display: inline-block;
+    background-color: #0A0140;
+    text-align: center;
+
     width: 100px;
-    margin-top: -1px;
-    padding-right: 40px ;
+    height: 30px;
+    margin: auto;
+    padding: 5px 5px 2px 4px;
     margin-left: 4px;
     border-radius: 5px;
+    margin-top: 450px;
+    text-decoration: none;
 
  }
 
- ul > li > a {
-  display: block;
-  background-color: #0f31f2 ;
-  color: black;
+ ul > li > a{
   text-align: center;
-  margin-bottom: 5px;
-  height: 25px;
-  border-radius: 5px;
-  padding: 2px 10px 0px;
-  text-decoration: none;
-  transition-duration: .3s;
+ }
+
+ menu > ul > li {
+  display: inline-block;
+  
 }
+
+
 
 .nav:hover{
   background-color: #365073 ;
@@ -136,16 +161,7 @@
   width: 130px ;
 }
 
-menu{
-  background-image: url(../imagens/desktop-1920x1080.png);
-  height: 500px;
-  width: 100%;
-  margin-bottom: 5px ;
-  background-position: center,right;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-}
+
 
 main{
   width: 50vw;
