@@ -17,7 +17,7 @@ body{
    background-color: black;
 }
 
-@media screen and (min-width:360px) and (max-width:667px){
+@media screen and (min-width:375px) and (max-width:667px){
       menu#imagem{
         background-image: url(../imagens/cyber-punk-mobile.jpg);
         height: 200px;

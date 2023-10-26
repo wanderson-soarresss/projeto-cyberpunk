@@ -57,7 +57,7 @@
 
     ul > li > a {
         display: block;
-        background-color: #f2e30f ;
+        background-color: #f2e30fd7 ;
         color: black;
         text-align: center;
         margin-bottom: 5px;
@@ -103,7 +103,7 @@
        
 }
 
-@media  screen and (min-width:1024px) and (max-width:1680px){
+@media  screen and (min-width:1025px) and (max-width:1680px){
 
   *{
     margin: 0px;
