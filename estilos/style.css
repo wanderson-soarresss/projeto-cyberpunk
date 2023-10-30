@@ -113,9 +113,18 @@ body{
       height: 90%;
      }
 
-      article > h2{
 
-      }
+     section #david{
+      display: block;
+      background-color: #f2e30f;
+      width: 100px;
+      margin: 10px;
+     }
+
+     section #lucy{
+      width: 50px;
+     }
+
     
 }
 
