@@ -113,38 +113,39 @@ body{
       height: 90%;
      }
 
+     section{
+      display: inline-block;
+      background-color: #f2e30f;
+     }
+
     section > p{
-      background-color: #72abf5b0;
+      background-color: #2670d1fa;
       margin: auto;
       padding: 10px;
       border-radius: 5px;
-      width: 80vw;
+     
       text-indent: 20px;
     }
- 
-     section > a > img{
-      display: block;
-     }
 
-     section #david{
+
+     img#david{
+      
       margin-right: 10px;
-      
-      background-color: ;
-      width: 110px;
+      width: 20vw;
       border-radius: 40px;
+      margin-bottom: 5px;
      }
 
 
-
-     section #lucy{
-     
+     img#lucy{
       border-radius: 40px;
-      width: 112px;
-      height: 126px;
-      margin-top: 50px;
-     background-repeat: no-repeat;
+      width: 20vw;
+      margin: 10px;
      
-      
+     }
+
+     p#lucy{
+      background-color: #f2620f;
      }
 
     
