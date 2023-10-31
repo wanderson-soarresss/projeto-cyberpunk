@@ -113,16 +113,38 @@ body{
       height: 90%;
      }
 
-
-     section #david{
+    section > p{
+      background-color: #72abf5b0;
+      margin: auto;
+      padding: 10px;
+      border-radius: 5px;
+      width: 80vw;
+      text-indent: 20px;
+    }
+ 
+     section > a > img{
       display: block;
-      background-color: #f2e30f;
-      width: 100px;
-      margin: 10px;
      }
 
+     section #david{
+      margin-right: 10px;
+      
+      background-color: ;
+      width: 110px;
+      border-radius: 40px;
+     }
+
+
+
      section #lucy{
-      width: 50px;
+     
+      border-radius: 40px;
+      width: 112px;
+      height: 126px;
+      margin-top: 50px;
+     background-repeat: no-repeat;
+     
+      
      }
 
     
